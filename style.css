@@ -1,0 +1,167 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+html {
+    scroll-behavior:smooth;
+}
+
+section#sec1 {
+    background-image: url(nate-grant-QQ9LainS6tI-unsplash.jpg);
+    height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+section#sec2 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:#3d4044
+}
+
+nav ul {
+    box-shadow: 0px 1px 10px rgb(32, 32, 32);
+    height:80px;
+    background-color:#474747;
+    position:fixed;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:27px;
+    padding-top:10px;
+}
+
+div.company_name_sec{
+    height:100%;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+}
+p.my_company {
+    color:white;
+    font-size:50px;
+    justify-content:center;
+    align-items:center;
+    font-family:arial;
+    background-color:#2651a8;
+    border-radius:10px;
+    padding:5px;
+
+}
+button[type="button"]:hover{
+    box-shadow: 5px 5px 10px rgb(26, 25, 25);
+    background-color:rgb(219, 179, 46);
+}
+
+button[type="button"]{
+    margin-top:50px;
+    width:200px;
+    height:50px;
+    border-radius:10px;
+    font-size:20px;
+    border:none;
+    background-color:rgb(233, 190, 51);
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: 5px 5px 10px rgb(32, 32, 32);
+}
+
+p.course_intro{
+    font-size:25px;
+    color:white;
+    font-weight:bolder;
+    text-shadow:15px 5px 4px rgb(36, 35, 35);
+}
+
+nav ul li {
+    color:white;
+    display:inline;
+    font-weight:bold;
+    padding:10px 15px;
+}
+
+nav ul a {
+    text-decoration:none;
+    color:white;
+}
+
+nav ul li:hover {
+    background-color:rgb(233, 190, 51);
+    cursor:pointer;
+    border-radius:4px;
+}
+
+div.card {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:400px;
+    height:450px;
+    background:rgba(255,255,255,0.4);
+    border-radius:25px;
+    top:20px;
+    box-shadow:10px 10px 4px rgba(0,0,0,0.2);
+    padding:0px;
+    margin:0px;
+}
+
+div.card-image {
+    position:cover;
+}
+
+img.chris_image {
+    width:200;
+    height:200px;
+    border-radius:200px;
+}
+
+div.card_text {
+    font-size:17px;
+    margin-top:10px;
+    color:white;
+    line-height:25px;
+}
+div.card_text h2{
+    color:black;
+    font-weight:bolder;
+}
+
+footer {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    height:30vh;
+    background-color:#2651a8;
+    color:white;
+}
+
+footer p {
+    font-size:18px;
+    line-height:45px;
+}
+
+div.card_text h2 {
+    text-align:center;
+}
+
+p.about_me {
+    margin-top:5px;
+    width:360px;
+    background-color:rgba(0,0,0,0.5);
+    padding:6px;
+    border-radius:5px;
+}
