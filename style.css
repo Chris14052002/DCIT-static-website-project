@@ -60,7 +60,8 @@ p.my_company {
 }
 button[type="button"]:hover{
     box-shadow: 5px 5px 10px rgb(26, 25, 25);
-    background-color:rgb(219, 179, 46);
+    background-color:rgb(219, 179, 46);\
+    font-size:20px;
 }
 
 button[type="button"]{
